@@ -161,7 +161,13 @@ export function SiteFooter() {
             <a href="mailto:paradox@iem.edu.in" aria-label="Email" className="hover:text-primary">
               <Mail className="h-5 w-5" />
             </a>
-            <a href="#home" aria-label="Instagram" className="hover:text-primary">
+            <a
+              href="https://www.instagram.com/iem.paradox/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="hover:text-primary"
+            >
               <Instagram className="h-5 w-5" />
             </a>
             <a href="#home" aria-label="LinkedIn" className="hover:text-primary">
