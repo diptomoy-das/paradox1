@@ -211,11 +211,12 @@ export function Hero() {
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
           <a
-            href="#about"
-            onClick={enterMultiverse}
+            href="https://drive.google.com/file/d/1nrtUAAu0_e5s0qKyNw0cCQ5JrQmkwzb5/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
             className="graffiti-btn group inline-flex items-center gap-3 border-2 border-white/60 bg-black/30 px-8 py-3.5 text-sm font-bold tracking-[0.2em] text-foreground uppercase backdrop-blur-sm transition-colors hover:bg-white/10"
           >
-            Enter the Multiverse
+            EXPLORE THE BROCHURE
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
         </div>

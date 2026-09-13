@@ -59,12 +59,14 @@ export function Register() {
           >
             Read the Guide
           </a>
-          <span
-            aria-disabled="true"
-            className="graffiti-btn inline-flex cursor-not-allowed items-center gap-3 border-2 border-primary/30 px-8 py-4 text-sm font-bold tracking-[0.2em] text-muted-foreground uppercase opacity-70"
+          <a
+            href="https://drive.google.com/file/d/1nrtUAAu0_e5s0qKyNw0cCQ5JrQmkwzb5/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="graffiti-btn inline-flex items-center gap-3 border-2 border-primary/70 px-8 py-4 text-sm font-bold tracking-[0.2em] uppercase transition-colors hover:bg-primary/15"
           >
-            Brochure — Coming Soon
-          </span>
+            Brochure
+          </a>
         </div>
       </div>
     </section>
