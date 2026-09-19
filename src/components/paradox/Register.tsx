@@ -79,18 +79,38 @@ export function EventPartners() {
       id="partners"
       className="relative mx-auto max-w-5xl px-5 py-16 text-center"
     >
-      <p className="text-xs tracking-[0.35em] text-primary uppercase [font-family:var(--font-display)]">
+      <p className="text-lg tracking-[0.35em] text-primary uppercase [font-family:var(--font-display)]">
         Event Partners
       </p>
-      <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-        {[1, 2, 3, 4, 5, 6].map((i) => (
+      <div className="mt-8 flex justify-center">
+        <div className="overflow-hidden rounded-xl border border-primary/30">
+          <img
+            src="/partners/lnc-community.png"
+            alt="LNC Community"
+            className="h-48 w-auto object-cover"
+          />
+        </div>
+      </div>
+
+      <p className="mt-16 text-lg tracking-[0.35em] text-primary uppercase [font-family:var(--font-display)]">
+        Community Partners
+      </p>
+      <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
+        {[
+          { src: "/partners/hacktropica.png", alt: "Hacktropica" },
+          { src: "/partners/club-404.png", alt: "Club 404 - Coding Club of AUCSE" },
+          { src: "/partners/ignitex.png", alt: "IgniteX" },
+          { src: "/partners/the-code-bird.png", alt: "The Code Bird" },
+        ].map((partner) => (
           <div
-            key={i}
-            className="flex min-h-24 items-center justify-center rounded-xl border border-dashed border-primary/30 bg-background/40 px-4 py-8"
+            key={partner.alt}
+            className="flex items-center justify-center overflow-hidden rounded-xl border border-primary/30 bg-background/40 p-4"
           >
-            <p className="text-sm tracking-[0.2em] text-muted-foreground uppercase">
-              Coming soon
-            </p>
+            <img
+              src={partner.src}
+              alt={partner.alt}
+              className="h-28 w-auto object-contain"
+            />
           </div>
         ))}
       </div>
