@@ -80,6 +80,25 @@ export function EventPartners() {
       className="relative mx-auto max-w-5xl px-5 py-16 text-center"
     >
       <p className="text-lg tracking-[0.35em] text-primary uppercase [font-family:var(--font-display)]">
+        Sponsors
+      </p>
+      <div className="mt-8 flex justify-center">
+        <a
+          href="https://codecrafters.io"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center overflow-hidden rounded-xl border border-primary/30 bg-background/40 px-8 py-6 transition-all hover:border-primary/60 hover:bg-background/60"
+        >
+          <img
+            src="/partners/codecrafters.svg"
+            alt="CodeCrafters"
+            className="h-9 w-auto max-w-[240px] object-contain brightness-0 invert sm:h-12 sm:max-w-sm"
+            style={{ filter: "brightness(0) invert(1)" }}
+          />
+        </a>
+      </div>
+
+      <p className="mt-16 text-lg tracking-[0.35em] text-primary uppercase [font-family:var(--font-display)]">
         Event Partners
       </p>
       <div className="mt-8 flex justify-center">
